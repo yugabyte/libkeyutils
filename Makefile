@@ -1,5 +1,5 @@
-CPPFLAGS	:= -I.
-CFLAGS		:= -g -Wall -Werror
+CPPFLAGS	:= -I. $(CPPFLAGS)
+CFLAGS		:= -g -Wall -Werror $(CFLAGS)
 INSTALL		:= install
 DESTDIR		:=
 SPECFILE	:= keyutils.spec
